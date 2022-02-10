@@ -1,0 +1,29 @@
+.table-container {
+  margin: 30vh auto;
+  width: 30%;
+  border: 1px solid black;
+  //   height: 40vh;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+  }
+  .home-world-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .home-world {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+  }
+  .pilots {
+    display: flex;
+  }
+}
