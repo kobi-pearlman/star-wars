@@ -12,7 +12,11 @@ const PlanetsList = ({ planetsList }) => {
   return (
     <div className="planets-list">
       {sortedPlanetList.map((planet, i) => (
-        <PlanetBar planet={planet} size={(i + 1) * relativePercentage} />
+        <PlanetBar
+          key={i}
+          planet={planet}
+          size={(i + 1) * relativePercentage}
+        />
       ))}
     </div>
   );
