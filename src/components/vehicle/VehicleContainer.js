@@ -18,7 +18,7 @@ const VehicleContainer = () => {
 
     await vehicles.reduce(async (promise, vehicle) => {
       await promise;
-      if (vehicle.pilots) {
+      if (vehicle.pilots.length) {
         const vehicleInfo = await getPopulationByPilots(vehicle.pilots);
 
         if (
